@@ -1,3 +1,4 @@
+/*arrays*/
 let enginsVolume = [3, 3.6, 4.2];
 console.log(enginsVolume);
 console.log(enginsVolume[2]);
@@ -14,6 +15,8 @@ let music = [
     ['queen', 'pinkfloyd', 'acdc']
 ];
 console.log(music);
+
+/*objects*/
 
 
 let user = {
@@ -35,4 +38,18 @@ let vasya = users[0];
 console.log(vasya);
 let petya = users[1];
 console.log(petya);
+
+
+/*reference vs primitive*/
+let x = 100;
+let y = x;
+y = 200;
+console.log(y, x);
+
+let arr1 = [];
+let arr2 = arr1;
+
+arr2[0] = 'hello';
+console.log(arr2);
+console.log(arr1);
 
