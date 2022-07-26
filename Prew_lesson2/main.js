@@ -1,3 +1,12 @@
+let enginsVolume = [3, 3.6, 4.2];
+console.log(enginsVolume);
+console.log(enginsVolume[2]);
+enginsVolume[3] = 4.5;
+console.log(enginsVolume);
+enginsVolume[2] = 4.8;
+console.log(enginsVolume);
+console.log(enginsVolume.length);
+
 let user = {
     name: 'Vasya', age: 31, status: true, skills: ['html', 'js'], wife: {name: 'Olya', age: 22,}
 };
