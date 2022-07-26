@@ -7,6 +7,15 @@ enginsVolume[2] = 4.8;
 console.log(enginsVolume);
 console.log(enginsVolume.length);
 
+
+
+let music = [
+    ['coolio', '2pac', 'eminem', 'snoop dog'],
+    ['queen', 'pinkfloyd', 'acdc']
+];
+console.log(music);
+
+
 let user = {
     name: 'Vasya', age: 31, status: true, skills: ['html', 'js'], wife: {name: 'Olya', age: 22,}
 };
@@ -26,3 +35,4 @@ let vasya = users[0];
 console.log(vasya);
 let petya = users[1];
 console.log(petya);
+
