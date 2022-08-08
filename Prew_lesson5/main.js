@@ -1,6 +1,4 @@
 
-
-}
 let products = [
     {
         title: 'milk',
