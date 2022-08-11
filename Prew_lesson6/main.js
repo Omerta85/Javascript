@@ -1,13 +1,13 @@
-//Методи стрінги
+// //Методи стрінги
 // let str = 'hello okten';
 // console.log(str);
-// // for (const strElement of str) {
-// //     console.log(strElement);
-// // }
+// for (const strElement of str) {
+//     console.log(strElement);
+// }
 //
 // //добавляє в кінець стрінги
-// // let s = str.concat('!!!');
-// // console.log(s);
+// let s = str.concat('!!!');
+// console.log(s);
 //
 // // всі букви великі
 // console.log(str.toUpperCase());
@@ -108,6 +108,7 @@ let users = [
 //     return u2.age - u1.age;
 // });
 // console.log(sort);
+//Сортування по алфавіту через аскі код
 // console.log(users.sort((a, b) => {
 //     if( a.name > b.name) {
 //         return 1;
@@ -129,16 +130,16 @@ let users = [
 // }, {statT:[], statF:[]});
 // console.log(reduce);
 
-function filter(array, predicateFn) {
-    let filterArr = [];
-    for (const element of array) {
-       if (predicateFn(element)) {
-            filterArr.push(element);
-       }
-
-    }
-    return filterArr;
-}
-
-console.log(filter(users, (item) => item.status));
-console.log(filter(users, (item) => item.age>30));
+// function filter(array, predicateFn) {
+//     let filterArr = [];
+//     for (const element of array) {
+//        if (predicateFn(element)) {
+//             filterArr.push(element);
+//        }
+//
+//     }
+//     return filterArr;
+// }
+//
+// console.log(filter(users, (item) => item.status));
+// console.log(filter(users, (item) => item.age>30));
